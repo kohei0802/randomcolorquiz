@@ -1,0 +1,71 @@
+.display {
+    border: thick double #32a1ce;
+    width: 50%;
+    margin: 0 auto;
+    height: 150px;
+}
+
+div.choose {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#yellow {
+    border-radius: 30%;
+    background-color: #f2cc8f;
+    cursor: pointer;
+}
+
+#blue {
+    color: white;
+    border-radius: 30%;
+    background-color: #3d405b;
+    cursor: pointer;
+}
+
+#red {
+    border-radius: 30%;
+    background-color: #e07a5f;
+    cursor: pointer;
+}
+
+#green {
+    border-radius: 30%;
+    background-color: #81b29a;
+    cursor: pointer;
+}
+
+#gamestart {
+    top: 160px;
+    bottom: 23rem;
+    width: 30%;
+}
+
+.popup {
+    /*position, z-index are used to overlay .popup on other div*/
+    position: absolute;
+    z-index: 300;
+
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    background: plum;
+    top: 70px;
+    left: 2rem;
+    right: 1rem;
+    bottom: 2rem;
+
+    /*margin used to central align the box*/
+    margin: 0 auto auto;
+    padding: 0;
+    color: white;
+    border-radius: 4px;
+    width: 700px;
+}
+
+.popdown {
+    visibility: hidden;
+}
